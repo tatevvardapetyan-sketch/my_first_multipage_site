@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A/B Testing Guide – Glossary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">A/B</div>
+        <div class="brand-text">
+          <h1 class="site-title">Beginner’s Guide to A/B Testing</h1>
+          <p class="site-subtitle">For Non-Tech People</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <label class="theme-switch">
+          <span id="themeLabel">Theme:</span>
+          <select id="themeSelect">
+            <option value="friendly-tech">Light</option>
+            <option value="friendly-dark">Dark</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="glossary.html" class="active">Glossary</a></li>
+        <li><a href="dos-and-donts.html">Do’s & Don’ts</a></li>
+        <li><a href="checklist.html">Checklist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section-header">
+      <h2>Glossary of A/B Testing Terms</h2>
+      <p>Simple definitions and friendly analogies.</p>
+    </section>
+
+    <div class="accordion">
+      <details class="accordion-item">
+        <summary><span>Conversion Rate</span></summary>
+        <div class="acc-body">Think of it like a batting average. If 100 people visit and 5 buy, your CR is 5%.</div>
+      </details>
+      <details class="accordion-item">
+        <summary><span>Lift</span></summary>
+        <div class="acc-body">How much better (or worse) B did vs A. Like measuring the improvement in test scores.</div>
+      </details>
+      <details class="accordion-item">
+        <summary><span>Statistical Significance</span></summary>
+        <div class="acc-body">Means you're confident the result isn't just random noise. Think: not just a lucky shot.</div>
+      </details>
+      <details class="accordion-item">
+        <summary><span>Variant</span></summary>
+        <div class="acc-body">The version you're testing against your original (control).</div>
+      </details>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Learn the language of data, one term at a time.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

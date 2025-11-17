@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A/B Testing Guide – Checklist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">A/B</div>
+        <div class="brand-text">
+          <h1 class="site-title">Beginner’s Guide to A/B Testing</h1>
+          <p class="site-subtitle">For Non-Tech People</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <label class="theme-switch">
+          <span id="themeLabel">Theme:</span>
+          <select id="themeSelect">
+            <option value="friendly-tech">Light</option>
+            <option value="friendly-dark">Dark</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="planner.html">Planner</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="dos-and-donts.html">Do’s & Don’ts</a></li>
+        <li><a href="checklist.html" class="active">Checklist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section-header">
+      <h2>Pre-Launch Checklist</h2>
+      <p>Everything to confirm before pressing the big red “Run Test” button.</p>
+    </section>
+
+    <ol class="preflight">
+      <li>Clear success metric is defined.</li>
+      <li>Hypothesis is documented.</li>
+      <li>Test variations are reviewed and QA’d.</li>
+      <li>Tracking is verified for both A and B.</li>
+      <li>Traffic is split randomly and evenly.</li>
+      <li>Test length is planned and won't be cut short.</li>
+      <li>Comms owner is ready to share results.</li>
+    </ol>
+
+    <div class="result-note">
+      <p><strong>✅ When this is all checked, you’re ready to test!</strong></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Check it once, test it twice. ✨</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
